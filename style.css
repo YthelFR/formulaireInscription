@@ -1,0 +1,36 @@
+body {
+  font-family: comfortaa;
+}
+
+form {
+  margin: 150px auto;
+  width: 400px;
+  display: flex;
+  flex-direction: column;
+}
+
+h1 {
+  text-align: center;
+}
+
+input {
+  margin-bottom: 15px;
+}
+#message, .message {
+  display:none;
+  padding: 10px 15px;
+  border-radius: 10px;
+  margin-bottom: 15px;
+}
+.succes {
+  display:block !important;
+  color: green;
+  background-color: #acffac;
+  border:3px solid green;
+}
+.echec {
+  display:block !important;
+  color: red;
+  background-color: #ffacac;
+  border: 3px solid red;
+}
